@@ -1,26 +1,24 @@
-# Student Grade Management System
+# Student Grade Manager
 
-A Python program for managing student records, calculating average scores, identifying the highest and lowest scores, and updating student grades.
+A Python-based student grade management system that allows users to store student information, manage scores, and perform basic grade analysis through a menu-driven interface.
 
 ## Features
 
-- Add new student records
-- Display all registered students
-- Search for a student by name
-- Update a student's score
-- Calculate the average score of all students
-- Find the highest and lowest scores
-- Identify students with the highest or lowest scores
+- Register students with their names, scores, and grade levels.
+- Prevent duplicate student names, ignoring letter case.
+- Validate student scores (0–20) and grade levels (10–12).
+- Calculate the average score of all students.
+- Find the highest and lowest scores.
+- Search for a student by name.
+- Update a student's score.
+- Add new students.
+- Display all registered students.
 
-## Concepts Practiced
+## Technologies
 
-- Functions and parameters
-- Dictionaries and data organization
+- Python 3
+- Dictionaries
+- Functions
 - Loops and conditional statements
-- User input and data processing
-- Searching and updating records
-- Calculating averages and finding minimum and maximum values
-
-## How to Run
-
-Run `fifth.py` using Python and interact with the program through the terminal.
+- Exception handling
+- Input validation
